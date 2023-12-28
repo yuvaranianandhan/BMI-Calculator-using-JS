@@ -1,0 +1,51 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('bmi.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.container {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(18, 18, 18, 0.1);
+    backdrop-filter: blur(50px);
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: -20px;
+    color: #e70909;
+}
+h2 {
+    
+    color: #e70909;
+}
+button {
+    width: 100%;
+    background-color:#e70909;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px; 
+    border: none;
+    border-radius: 4px;
+}
+
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
